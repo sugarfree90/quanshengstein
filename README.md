@@ -68,15 +68,15 @@ Next you need python3 with installed additional packages (you can use pip for th
 
 
 
-With that installed you can run catWebservice.py.
+With that installed you can run `catWebservice.py`.
 For the configuration, you have to define "SERIAL_PORT" variable to point to the AIOC interface, the soundcard from AIOC will be auto-detected. Sorry if you want to use other interface but i have developed it with AIOC in mind.
 You can use screen or supervisord to run this script however you like to be available all the time for the frontend.
 
 ## OpenWebRx+ customization
 
 Last step is to modify the index.html file of OpenWebRx+.
-You can find it in /usr/lib/python3/dist-packages/htdocs/
-and you have to insert the script before </body> in the index.html file.
+You can find it in `/usr/lib/python3/dist-packages/htdocs/`
+and you have to insert the script before `</body>` in the index.html file.
 Remember that after upgrading the openwebrx you have to do it again!
 
 ## 6. Using the radio
