@@ -40,7 +40,8 @@ For power supply i have used 24V 2A mikrotik brick and LM2596 boards from Aliexp
 
 Iportant note for setting the right voltage - set the 8V output and the connect the radio to tune it to 8.4V using internal measurement circuit. When i have applied 8.4V using multimeter, the radio was screaming about voltage being too high because it was reading 8.6V.
 
-It is not an ideal solution, so i have replaced the capacitors for better ones.
+It is not an ideal solution, so i have replaced the capacitors for better ones. I cannot say that the sensitivity is worse than on battery - i have not measured that yet, but i am using SDR for receiving anyway.
+
 In the quansheng i have set it to single VFO, i have disabled automatic keypad lock and i have disabled power saving.
 Volume knob is set to around 75%.
 
