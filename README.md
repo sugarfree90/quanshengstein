@@ -21,7 +21,9 @@ Kudos for contributors!
 ![](/photo/assembled.jpeg)
 
 ## 2. Connecting everything together
-I have used Orange Pi One as a main computer (because it was collecting dust in a drawer) and connected to it RTL-SDR which is connected to the pigtail exported from quansheng and an AIOC board.
+I have used Orange Pi One as a main computer (because it was collecting dust in a drawer) and connected to it RTL-SDR which is connected to the pigtail exported from quansheng.
+
+For communicating with radio (UART, Voice and PTT) i have used AIOC board.
 
 https://github.com/skuep/AIOC
 Kudos for all the contributors!
