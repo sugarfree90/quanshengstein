@@ -1,0 +1,36 @@
+server {
+    listen 443 ssl;
+    server_name _;
+
+    ssl_certificate /etc/ssl/certs/openwebrx.crt;
+    ssl_certificate_key /etc/ssl/private/openwebrx.key;
+
+    location / {
+        proxy_pass http://127.0.0.1:8073;
+        proxy_http_version 1.1;
+
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+}
+server {
+    listen 8443 ssl;
+    server_name _;
+
+    ssl_certificate /etc/ssl/certs/openwebrx.crt;
+    ssl_certificate_key /etc/ssl/private/openwebrx.key;
+
+    location / {
+        proxy_pass http://127.0.0.1:8081;
+        proxy_http_version 1.1;
+
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+}
