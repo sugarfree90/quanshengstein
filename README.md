@@ -61,7 +61,8 @@ My sourcecode and documentation can be found in https://github.com/sugarfree90/u
 
 Binary file can be found in this repository, it was tested on Quansheng UV-K5 V3 - you are flashing it on your own risk!
 Please refer to the original F4HWN project for more info - this is outstanding!
-Not everything is working - but it is a hobby project :)
+
+Not everything is working properly in my fork - but it is a hobby project :)
 
 ## 5. OpenWebRx+ and backend
 The goal here was to be able to pick frequency from waterfall and transmit via the quansheng from web browser.
