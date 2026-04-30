@@ -3,6 +3,7 @@
 I hate coaxial cables and connectors.
 
 Remote controlled Quansheng UV-K5 with SDR Panadapter - vibecoded for fun with Gemini
+
 Motivation was that i have a long way to a mast - too long to have radio connected via RF cable, so i have made PoE powered handheld radio :)
 ![Assembled with Flowerpot antenna](/photo/onMast.jpeg)
 GUI is a modified openwebrx+ and whole project allows to pick frequency from waterfall.
@@ -111,3 +112,8 @@ You can predefine those values in the name of the profile in OpenWebRX+ in such 
 > ****repeaters;110;-7.6****
 
 It will set 110Hz CTCSS tone and TX shift to -7.6MHz
+
+## What's next?
+currently i am working on connecting usdx + micropa50v3 + ATU-100 antenna tunner but it will not be controlled with OpenWebRx+ because it is too much effort to implement FT8 and stuff.
+
+Next VHF/UHF project will be TYT MD-9600 :)
