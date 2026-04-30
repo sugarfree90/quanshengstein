@@ -49,6 +49,9 @@ Full command documentation will be listed at the end of this file. Not everythin
 ## 5. OpenWebRx+ and backend
 The goal here was to be able to pick frequency from waterfall and transmit via the quansheng from web browser.
 ![enter image description here](/photo/screenshoot.png)
+In order to use the radio, you have to install openwebrx+ and rtl-sdr software. I think that it is the best to use official documentation:
+https://fms.komkon.org/OWRX/
+Kudos for the contributors!
 
 ## Important note!
 In order to use microphone in web browser - the connection requires SSL, i have created my own certificate and i have used nginx to deliver both frontend and backend connection
@@ -56,9 +59,6 @@ I have added my nginx example config in nginx folder. sites-available folder is 
 
 ## Python backend
 
-In order to use the radio, you have to install openwebrx+ and rtl-sdr software. I think that it is the best to use official documentation:
-https://fms.komkon.org/OWRX/
-Kudos for the contributors!
 Next you need python3 with installed additional packages (you can use pip for that):
 
  - asyncio
