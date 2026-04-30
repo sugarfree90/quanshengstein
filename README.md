@@ -1,6 +1,7 @@
 # Quanshengstein
 
 I hate coaxial cables and connectors.
+
 Remote controlled Quansheng UV-K5 with SDR Panadapter - vibecoded for fun with Gemini
 Motivation was that i have a long way to a mast - too long to have radio connected via RF cable, so i have made PoE powered handheld radio :)
 ![Assembled with Flowerpot antenna](/photo/onMast.jpeg)
