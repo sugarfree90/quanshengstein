@@ -11,7 +11,7 @@ Here is how i did it:
 
 ## 1. Modyfying Quansheng radio
 In order to use single antenna, and protect SDR from high power of Quansheng, i have soldered wifi pigtail just before LNA input of Quansheng's receiver. The pigtail was somehow sandwiched between PCB and metal chasis and 
-pulled out of the casing in a place of LED diode which was removed. On the picture there is V2 version but final version was assembled with V3 because i have broke it :).
+pulled out of the casing in a place of LED diode which was removed. On the picture there is V2 version but final version was assembled with V3. My V2 version gave its life in the name of science [*].
 I have helped myself with the schematics downloaded from
 
 https://github.com/mentalDetector/Quansheng_UV-K5_PCB_R51-V1.4_PCB_Reversing_Rev._0.9
