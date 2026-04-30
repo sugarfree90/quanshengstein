@@ -37,7 +37,7 @@ Power is delivered via gigabit POE (Mikrotik gigabit POE injectors) - and i thin
 For power supply i have used 24V 2A mikrotik brick and LM2596 boards from Aliexpress for supplying 5V for Orange Pi + USB devices, and 8.2V for Quansheng. I have connected Quansheng with modified Aliexpress battery eliminator. It was just a linear LM7808 regulator which is not efficient enough so i have replaced it with LM2596.
 ![I have checked that on oscilloscope, and it was better but not much....](/photo/powerSupply.jpeg)
 
-Iportant note for setting the right voltage - set the 8V output and the connect the radio to tune it to 8.4V using internal measurement circuit. When i have applied 8.4V using multimeter, the radio was screaming about voltage being too high.
+Iportant note for setting the right voltage - set the 8V output and the connect the radio to tune it to 8.4V using internal measurement circuit. When i have applied 8.4V using multimeter, the radio was screaming about voltage being too high because it was reading 8.6V.
 
 It is not an ideal solution, so i have replaced the capacitors for better ones.
 In the quansheng i have set it to single VFO, i have disabled automatic keypad lock and i have disabled power saving.
